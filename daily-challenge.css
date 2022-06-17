@@ -1,3 +1,7 @@
+* {
+    margin: 0px ;
+    padding: 0px ;
+}
 h1 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -5,7 +9,7 @@ h1 {
   }
 
   p {
-    font-family: sans-serif; /* Switch to sans-serif instead of serif */
+    font-family:'Fira Sans', sans-serif; /* Switch to sans-serif instead of serif */
     text-align: center;
   }
 
