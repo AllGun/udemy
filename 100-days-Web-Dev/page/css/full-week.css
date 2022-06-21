@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(234, 198, 183);
+  text-align: center;
+  color: purple;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Fira sans", sans-serif;
+}
