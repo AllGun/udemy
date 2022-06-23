@@ -1,5 +1,5 @@
 body {
-font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: rgb(234, 198, 183);
   text-align: center;
 }
@@ -21,13 +21,4 @@ h1 {
 p {
   font-family: "Fira Sans", sans-serif; /* Switch to sans-serif instead of serif */
   text-align: center;
-}
-
-a {
-  color: red;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
