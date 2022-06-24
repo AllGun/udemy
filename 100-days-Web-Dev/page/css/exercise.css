@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    margin: auto;
+    padding: auto;
+}
+#content {
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+}
+
+#padding {
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+
+#margin {
+
+}
