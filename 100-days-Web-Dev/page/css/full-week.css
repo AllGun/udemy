@@ -1,24 +1,21 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
 
 h1 {
   font-size: 48px;
   font-family: "Oswald", sans-serif;
-  margin: 12px 0;
+  margin: 0px;
 }
 
 #description {
-  margin-bottom: 36px;
+  margin: 12px 0;
 }
 
 header p {
   margin-bottom: 36px;
-}
-
-header > p {
-  margin-bottom: 36px;
+  padding: 12px 0;
 }
 
 a {
@@ -49,8 +46,22 @@ ol {
 }
 
 li {
-  background-color: orange;
+  background-color: rgb(223, 136, 124);
   border-radius: 5px;
-  margin: 32px;
+  margin: 25px;
   padding: 16px;
+}
+
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: 'Oswald', sans-serif;
+}
+
+/* main p {
+} */
+
+.daily-goal {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+
 }
