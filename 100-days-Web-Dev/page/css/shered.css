@@ -2,6 +2,7 @@ body {
   font-family: "Fira Sans", sans-serif;
   background-color: rgb(234, 198, 183);
   text-align: center;
+  /* margin: 50px; */
 }
 
 h1 {
@@ -12,5 +13,11 @@ h1 {
 
 p {
   font-family: "Fira Sans", sans-serif; /* Switch to sans-serif instead of serif */
-  text-align: center;
+  font-size: 24px;
+}
+
+a {
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+
 }
