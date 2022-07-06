@@ -1,0 +1,22 @@
+/* 
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+h1 {
+    color: purple;
+    font-size: 5em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+    color: blue;
+    font-size: 5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    color: brown;
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+}
