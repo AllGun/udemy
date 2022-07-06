@@ -3,20 +3,35 @@ font-family: 'Fira Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-h1 {
-    color: purple;
-    font-size: 5em;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-h2 {
-    color: blue;
-    font-size: 5em;
-    font-family: 'Oswald', sans-serif;
-}
-
-h3 {
-    color: brown;
-    font-size: 5em;
+body {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(244, 234, 255);
 }
+
+h1 {
+    color: rgb(88, 49, 196);
+    font-size: 3em;
+
+}
+
+/* Color Theme Swatches in Hex */
+.Hidden-Heroes-1-hex { color: #B0A4BF; }
+.Hidden-Heroes-2-hex { color: #304EF2; }
+.Hidden-Heroes-3-hex { color: #445EF2; }
+.Hidden-Heroes-4-hex { color: #BF9B6F; }
+.Hidden-Heroes-5-hex { color: #262626; }
+
+/* Color Theme Swatches in RGBA */
+.Hidden-Heroes-1-rgba { color: rgba(175, 164, 191, 1); }
+.Hidden-Heroes-2-rgba { color: rgba(48, 77, 242, 1); }
+.Hidden-Heroes-3-rgba { color: rgba(67, 93, 242, 1); }
+.Hidden-Heroes-4-rgba { color: rgba(191, 155, 110, 1); }
+.Hidden-Heroes-5-rgba { color: rgba(38, 38, 38, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Hidden-Heroes-1-hsla { color: hsla(264, 17, 69, 1); }
+.Hidden-Heroes-2-hsla { color: hsla(230, 88, 56, 1); }
+.Hidden-Heroes-3-hsla { color: hsla(230, 87, 60, 1); }
+.Hidden-Heroes-4-hsla { color: hsla(33, 38, 59, 1); }
+.Hidden-Heroes-5-hsla { color: hsla(0, 0, 15, 1); }
