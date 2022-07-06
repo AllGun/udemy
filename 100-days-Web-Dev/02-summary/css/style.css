@@ -3,17 +3,34 @@ font-family: 'Fira Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
 body {
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(244, 234, 255);
 }
 
-h1 {
+header {
+    text-align: center;
+    /* padding: 32px; */
+}
+
+header h1 {
     color: rgb(88, 49, 196);
     font-size: 3em;
+    
+    /* margin: 30px; */
 
 }
+header img {
+    width: 300px;
+    
+}
+
+
 
 /* Color Theme Swatches in Hex */
 .Hidden-Heroes-1-hex { color: #B0A4BF; }
