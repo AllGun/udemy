@@ -74,7 +74,7 @@ a:active {
 
 footer {
     text-align: center;
-    
+    margin-bottom: 100px;
 }
 
 footer p {
@@ -84,16 +84,17 @@ footer p {
 
 #download-link {
     background-color: rgb(36, 3, 102);
+    border-radius: 8px;
     color: rgb(255, 237, 177);
+    padding: 12px 20px;
 }
 
-#download-link:hover {
+#download-link:hover,
+#download-link:active {
     background-color: rgb(255, 237, 177);
     color: rgb(36, 3, 102);
     border: 2px solid rgb(36, 3, 102);
-
 }
-
 
 #quoting {
     font-size: 0.8em;
