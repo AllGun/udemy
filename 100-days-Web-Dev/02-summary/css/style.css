@@ -74,60 +74,29 @@ a:active {
 
 footer {
     text-align: center;
+    
 }
 
-#saint-exu {
-    font-size: 0.5em;
+footer p {
+    color: rgb(131, 113, 149);
+    margin-top: 30px;
+}
+
+#download-link {
+    background-color: rgb(36, 3, 102);
+    color: rgb(255, 237, 177);
+}
+
+#download-link:hover {
+    background-color: rgb(255, 237, 177);
+    color: rgb(36, 3, 102);
+    border: 2px solid rgb(36, 3, 102);
+
+}
+
+
+#quoting {
+    font-size: 0.8em;
     text-align: center;
 }
 
-/* Color Theme Swatches in Hex */
-.Hidden-Heroes-1-hex {
-  color: #b0a4bf;
-}
-.Hidden-Heroes-2-hex {
-  color: #304ef2;
-}
-.Hidden-Heroes-3-hex {
-  color: #445ef2;
-}
-.Hidden-Heroes-4-hex {
-  color: #bf9b6f;
-}
-.Hidden-Heroes-5-hex {
-  color: #262626;
-}
-
-/* Color Theme Swatches in RGBA */
-.Hidden-Heroes-1-rgba {
-  color: rgba(175, 164, 191, 1);
-}
-.Hidden-Heroes-2-rgba {
-  color: rgba(48, 77, 242, 1);
-}
-.Hidden-Heroes-3-rgba {
-  color: rgba(67, 93, 242, 1);
-}
-.Hidden-Heroes-4-rgba {
-  color: rgba(191, 155, 110, 1);
-}
-.Hidden-Heroes-5-rgba {
-  color: rgba(38, 38, 38, 1);
-}
-
-/* Color Theme Swatches in HSLA */
-.Hidden-Heroes-1-hsla {
-  color: hsla(264, 17, 69, 1);
-}
-.Hidden-Heroes-2-hsla {
-  color: hsla(230, 88, 56, 1);
-}
-.Hidden-Heroes-3-hsla {
-  color: hsla(230, 87, 60, 1);
-}
-.Hidden-Heroes-4-hsla {
-  color: hsla(33, 38, 59, 1);
-}
-.Hidden-Heroes-5-hsla {
-  color: hsla(0, 0, 15, 1);
-}
