@@ -9,67 +9,125 @@ font-family: 'Roboto', sans-serif;
 } */
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(244, 234, 255);
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(244, 234, 255);
 }
 
 header {
-    text-align: center;
-    /* padding: 32px; */
+  text-align: center;
+  /* padding: 32px; */
 }
 
 header h1 {
-    color: rgb(88, 49, 196);
-    font-size: 3em;
-    
-    /* margin: 30px; */
+  color: rgb(88, 49, 196);
+  font-size: 3em;
 
+  /* margin: 30px; */
 }
 header img {
-    width: 300px;
-    
+  width: 300px;
 }
 
 main {
-
-    background-color: rgb(122, 74, 218);
-    border-radius: 8px;
-    color: rgb(248, 241, 255);
-    padding: 32px;
-    width: 700px;
-    margin: 32px auto;
+  background-color: rgb(122, 74, 218);
+  border-radius: 8px;
+  color: rgb(248, 241, 255);
+  padding: 32px;
+  width: 700px;
+  margin: 32px auto;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 li {
-    margin: 14px 0;
-    
+  margin: 14px 0;
+  padding-left: 15px;
+  border-left: 5px solid transparent;
 }
 
+a {
+  background-color: rgb(255, 237, 177);
+  border-radius: 4px;
+  color: rgb(36, 3, 102);
+  padding: 2px 6px;
+  text-decoration: none;
+}
 
+a:hover,
+a:active {
+  background-color: rgb(36, 3, 102);
+  color: rgb(255, 237, 177);
+}
+
+.extra-important {
+  border-left: 5px solid rgb(247, 209, 85);
+  color: rgb(255, 237, 177);
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+#saint-exu {
+    font-size: 0.5em;
+    text-align: center;
+}
 
 /* Color Theme Swatches in Hex */
-.Hidden-Heroes-1-hex { color: #B0A4BF; }
-.Hidden-Heroes-2-hex { color: #304EF2; }
-.Hidden-Heroes-3-hex { color: #445EF2; }
-.Hidden-Heroes-4-hex { color: #BF9B6F; }
-.Hidden-Heroes-5-hex { color: #262626; }
+.Hidden-Heroes-1-hex {
+  color: #b0a4bf;
+}
+.Hidden-Heroes-2-hex {
+  color: #304ef2;
+}
+.Hidden-Heroes-3-hex {
+  color: #445ef2;
+}
+.Hidden-Heroes-4-hex {
+  color: #bf9b6f;
+}
+.Hidden-Heroes-5-hex {
+  color: #262626;
+}
 
 /* Color Theme Swatches in RGBA */
-.Hidden-Heroes-1-rgba { color: rgba(175, 164, 191, 1); }
-.Hidden-Heroes-2-rgba { color: rgba(48, 77, 242, 1); }
-.Hidden-Heroes-3-rgba { color: rgba(67, 93, 242, 1); }
-.Hidden-Heroes-4-rgba { color: rgba(191, 155, 110, 1); }
-.Hidden-Heroes-5-rgba { color: rgba(38, 38, 38, 1); }
+.Hidden-Heroes-1-rgba {
+  color: rgba(175, 164, 191, 1);
+}
+.Hidden-Heroes-2-rgba {
+  color: rgba(48, 77, 242, 1);
+}
+.Hidden-Heroes-3-rgba {
+  color: rgba(67, 93, 242, 1);
+}
+.Hidden-Heroes-4-rgba {
+  color: rgba(191, 155, 110, 1);
+}
+.Hidden-Heroes-5-rgba {
+  color: rgba(38, 38, 38, 1);
+}
 
 /* Color Theme Swatches in HSLA */
-.Hidden-Heroes-1-hsla { color: hsla(264, 17, 69, 1); }
-.Hidden-Heroes-2-hsla { color: hsla(230, 88, 56, 1); }
-.Hidden-Heroes-3-hsla { color: hsla(230, 87, 60, 1); }
-.Hidden-Heroes-4-hsla { color: hsla(33, 38, 59, 1); }
-.Hidden-Heroes-5-hsla { color: hsla(0, 0, 15, 1); }
+.Hidden-Heroes-1-hsla {
+  color: hsla(264, 17, 69, 1);
+}
+.Hidden-Heroes-2-hsla {
+  color: hsla(230, 88, 56, 1);
+}
+.Hidden-Heroes-3-hsla {
+  color: hsla(230, 87, 60, 1);
+}
+.Hidden-Heroes-4-hsla {
+  color: hsla(33, 38, 59, 1);
+}
+.Hidden-Heroes-5-hsla {
+  color: hsla(0, 0, 15, 1);
+}
