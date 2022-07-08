@@ -61,5 +61,10 @@ h2 {
 .daily-goal {
   margin: 12px;
   color: rgb(71, 29, 22);
+}
 
+#allgun {
+  color: rgb(131, 113, 149);
+  margin-top: 30px;
+  margin-bottom: 100px;
 }

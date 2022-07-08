@@ -33,3 +33,9 @@ span {
   font-weight: bold;
   font-size: 52px;
 }
+
+#allgun {
+  color: rgb(131, 113, 149);
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
