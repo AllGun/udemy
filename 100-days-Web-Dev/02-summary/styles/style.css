@@ -13,7 +13,12 @@ body {
   background-color: rgb(244, 234, 255);
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+
 header {
+  display: flex;
   text-align: center;
   /* padding: 32px; */
 }
