@@ -135,7 +135,32 @@ footer p {
 
 /* Dark Theme */
 .dark, .dark-theme {
-  background-color: #263238 ;
+  background-color: #263238;
   color: #fff;
 }
 
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
+.dark .title {
+  color:rgb(247, 244, 249);
+}
+
+.dark .dark-main {
+  background-color: #fff;
+  color: rgb(36, 3, 102);
+}
+
+.dark .dark-quoting {
+  color:aliceblue;
+}
+
+.dark .dark-allgun {
+  color:aliceblue;
+
+}
