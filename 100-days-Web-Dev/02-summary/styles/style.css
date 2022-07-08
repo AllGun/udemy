@@ -47,16 +47,16 @@ header img {
   position: absolute;
   z-index: 999;
   margin-top: 20px;
-  margin-left: 1400px;
+  margin-left: 1600px;
 }
 
-#div-lang {
+/* #div-lang {
   position: absolute;
   z-index: 999;
   margin-top: 22px;
   margin-left: 1300px;
 
-}
+} */
 
 
 /* Main */
@@ -137,10 +137,13 @@ footer p {
 .dark, .dark-theme {
   background-color: #263238;
   color: #fff;
+  transition: 2s;
 }
 
 .dark .bi-sun {
   display: none;
+  transition: 2s;
+
 }
 
 .dark .bi-moon {
@@ -149,18 +152,43 @@ footer p {
 
 .dark .title {
   color:rgb(247, 244, 249);
+  transition: 2s;
+
 }
 
 .dark .dark-main {
   background-color: #fff;
   color: rgb(36, 3, 102);
+  transition: 2s;
 }
+  
 
 .dark .dark-quoting {
   color:aliceblue;
+  transition: 2s;
+
 }
 
 .dark .dark-allgun {
   color:aliceblue;
+  transition: 2s;
+
+
+}
+
+.dark .dark-link {
+  background-color: rgb(255, 237, 177);
+    border-radius: 8px;
+    color:  rgb(36, 3, 102);
+    padding: 12px 20px;
+  transition: 2s;
+
+}
+
+.dark .dark-extra {
+  color:  rgb(36, 3, 102);
+  font-weight: bold;
+  border-left: 5px solid rgb(36, 3, 102);
+  transition: 2s;
 
 }

@@ -27,20 +27,14 @@
         <h1 class="title">HTML &amp; CSS Basics Summary</h1>
         <img src="./images/html-css.png" alt="" />
       </div>
-      <div id="div-lang">
+      <div id="div-theme">
         <input type="checkbox" name="change=theme" id="change-theme" />
         <label for="change-theme">
           <i class="bi bi-moon"></i>
           <i class="bi bi-sun"></i>
         </label>
       </div>
-        <div id="div-theme">
-          <input type="checkbox" name="change=theme" id="change-theme" />
-          <label for="change-theme">
-            <i>Pt</i>
-            <i>En</i>
-          </label>
-        </div>
+      
     </header>
 
     <main class="dark-main">
@@ -49,21 +43,21 @@
         <p>
           <strong>HTML</strong> (HyperText Markup Language) is used to define
           our page content, structure and meaning. You
-          <span class="highlight">don't</span> use it for styling purposes. Use
+          <span>don't</span> use it for styling purposes. Use
           CSS for that instead!
         </p>
         <ul id="html-css-list">
-          <li class="extra-important">
+          <li class="extra-important dark-extra">
             HTML uses "elements to describe (annotate) content
           </li>
           <li>
             HTML elements typically have an opening tag, content and then a
             closing tag
           </li>
-          <li class="extra-important">
+          <li class="extra-important dark-extra">
             You can also have void (empty) elements like images
           </li>
-          <li class="extra-important">
+          <li class="extra-important dark-extra">
             You can also configure elemtents with attributes
           </li>
           <li>
@@ -86,7 +80,7 @@
         <ul id="html-css-list">
           <li>Styles are assigned via property-value pairs</li>
           <li>You can assign Styles via the "style" attribute</li>
-          <li class="extra-important">
+          <li class="extra-important dark-extra">
             To avoid code duplication, you typically use global styles (e.g. via
             the "style" element) instead
           </li>
@@ -94,7 +88,7 @@
             Alternatively, you can work with external stylesheet files which you
             "link" to
           </li>
-          <li class="extra-important">
+          <li class="extra-important dark-extra">
             When working with CSS, concepts like "inheritance", "specificity"
             and the "box model" should be understood
           </li>
@@ -102,6 +96,7 @@
         <p>
           Learn more about all available CSS properties and values on the
           <a
+          
             href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
             target="_blank"
             >MDN CSS property reference</a
@@ -118,6 +113,7 @@
         >Download PDF Summary</a
       > -->
       <a
+        class="dark-link"
         id="download-link"
         href="./docs/html-css-basics-summary.pdf.pdf"
         target="_blank"
