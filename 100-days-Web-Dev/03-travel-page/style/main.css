@@ -16,19 +16,22 @@ header {
     height: 70px;
     background-color: antiquewhite;
     margin: 0;
-    padding: 0;
+    padding: 15px 60px;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-ul li {
-    margin-left: 30px;
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    margin-left: 20px;
 }
 
 ul a {
