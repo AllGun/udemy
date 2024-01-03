@@ -12,21 +12,30 @@ Variáveis
         const: vc não pode alterar
 
     Tipos: 
-        Primitivas
-            String
-            Number
-            Boolean
-            Undefined
-            Null
-            Object
+        PRIMITIVAS
+        String
+        Number
+        Boolean         
+        Undefined
+        Null
+        
+        REFERÊNCIA
+        Object
+        Array
+        Function
+    
+    ASI - Automatic Semicolon Inserrtion
 */
 
 let completeName = "Shaquil Barrett";
+console.log(typeof completeName);
+
 let firstName = "Jake";
+console.log(typeof firstName);
+
 let lastName = "Camarda";
 let itemName = "Pen";
 let number = 3;
 let itemAvailable = true;
 let itemColor = "Red";
-
-console.log(typeof completeName);
+let itemPrice;
