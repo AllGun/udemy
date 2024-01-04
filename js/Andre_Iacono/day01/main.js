@@ -34,8 +34,9 @@ let firstName = "Jake";
 console.log(typeof firstName);
 
 let lastName = "Camarda";
+
 let itemName = "Pen";
-let number = 3;
+let amount = 3;
 let itemAvailable = true;
 let itemColor = "Red";
 let itemPrice;
