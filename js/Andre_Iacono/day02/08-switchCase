@@ -8,7 +8,11 @@ function qualAeroporto(siglaAeroporto) {
     case "BSB":
       console.log("Brasília");
       break;
+    default:
+      console.log("Esse aeroporto não existe.");
   }
 }
 
 qualAeroporto("GYN");
+qualAeroporto("BSB");
+qualAeroporto("AWS");
