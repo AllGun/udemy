@@ -2,7 +2,7 @@ function controleVelocidade(velocidade, corCarro, temCnh) {
   let velocidadeStatus;
   if (velocidade > 110) {
     velocidadeStatus = "Acima da velocidade permitida.";
-  } else if (velocidade > 40 && velocidade < 110) {
+  } else if (velocidade > 40 && velocidade <= 110) {
     velocidadeStatus = "Velocidade permitida.";
   } else {
     velocidadeStatus = "Muito lento.";
@@ -33,3 +33,4 @@ controleVelocidade(35);
 controleVelocidade(65, "Azul");
 controleVelocidade(90, "Prata");
 controleVelocidade(85, "Vermelho", true);
+controleVelocidade(110, "Vermelho", true);

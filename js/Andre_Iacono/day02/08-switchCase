@@ -1,0 +1,14 @@
+// Switch Case
+
+function qualAeroporto(siglaAeroporto) {
+  switch (siglaAeroporto) {
+    case "GYN":
+      console.log("Goiânia");
+      break;
+    case "BSB":
+      console.log("Brasília");
+      break;
+  }
+}
+
+qualAeroporto("GYN");
