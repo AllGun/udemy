@@ -1,0 +1,16 @@
+body {
+  color: white;
+  background-color: black;
+  padding-top: 200px;
+}
+
+main {
+  width: 400px;
+  height: 300px;
+  border: 2px white solid;
+}
+
+div {
+  text-align: left;
+  padding: 20px;
+}

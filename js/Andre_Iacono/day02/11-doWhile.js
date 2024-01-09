@@ -1,13 +1,11 @@
-let = 1;
-
 function printNumbers(number) {
   let i = 1;
-  while (i <= number) {
+  do {
     console.log(`Número ${i}`);
     i++;
-  }
+  } while (i <= number);
   console.log();
 }
 
 printNumbers(10);
-printNumbers(12);
+printNumbers(15);
