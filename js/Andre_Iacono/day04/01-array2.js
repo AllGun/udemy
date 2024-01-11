@@ -1,3 +1,5 @@
+let runArray; //para testes
+let pesquisarNumero;
 // Cria uma lista de números
 const num = [7, 8, 9];
 
@@ -18,4 +20,14 @@ num.unshift(1, 2, 3);
  */
 num.splice(3, 0, 4, 5, 6);
 
-console.log(num);
+runArray = num;
+console.log(runArray);
+
+function localizarNumbero(numero) {
+  runArray = `O número ${numero} está localizado no índice ${num.indexOf(
+    numero
+  )}`;
+  console.log(runArray);
+}
+
+localizarNumbero(3);
