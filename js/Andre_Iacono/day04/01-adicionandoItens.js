@@ -22,12 +22,3 @@ num.splice(3, 0, 4, 5, 6);
 
 runArray = num;
 console.log(runArray);
-
-function localizarNumbero(numero) {
-  runArray = `O número ${numero} está localizado no índice ${num.indexOf(
-    numero
-  )}`;
-  console.log(runArray);
-}
-
-localizarNumbero(3);
