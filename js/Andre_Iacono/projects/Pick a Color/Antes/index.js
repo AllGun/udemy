@@ -1,34 +1,36 @@
+// Obtendo a referência para o elemento de cor no HTML usando o ID "color"
 let yourColor = document.getElementById("color");
-// Definindo uma lista de cores que serão utilizadas para fundo e fonte
-const colors = [
-  "Red",
-  "Blue",
-  "Yellow",
-  "Purple",
-  "Green",
-  "White", // Cor branca
-  "Black", // Cor preta
-];
 
-// Obtendo uma referência para o botão com o id "btn" no HTML
+// Definindo uma lista de cores que serão utilizadas para fundo e fonte
+const colors = ["Red", "Blue", "Yellow", "Purple", "Green", "Gray", "Black"];
+
+// Obtendo uma referência para o botão com o ID "btn" no HTML
 const btn = document.getElementById("btn");
 
 // Adicionando um ouvinte de eventos para o clique no botão
 btn.addEventListener("click", function () {
   // Obtendo um índice aleatório para a cor de fundo
-  let randomColor = getRandomColor();
+  let randomColorIndex = getRandomColor();
 
   // Obtendo um índice aleatório para a cor da fonte, evitando que seja igual à cor de fundo
-  let fontColor = getFontColor(randomColor);
+  let fontColorIndex = getFontColor(randomColorIndex);
 
   // Aplicando a cor de fundo ao corpo (body) do documento HTML
-  document.body.style.background = colors[randomColor];
-  document.getElementById("color").innerHTML = `${colors[randomColor]}`;
+  document.body.style.background = colors[randomColorIndex];
+
+  // Atualizando o conteúdo do elemento de cor no HTML
+  yourColor.innerHTML = `${colors[randomColorIndex]}`;
+
   // Aplicando a cor da fonte ao primeiro elemento h1 encontrado no documento HTML
-  document.getElementsByTagName("h1")[0].style.color = colors[fontColor];
+  document.getElementsByTagName("h1")[0].style.color = colors[fontColorIndex];
 
   // Exibindo os índices aleatórios no console para fins de depuração
-  console.log(randomColor, fontColor);
+  console.log(
+    "Índice da cor de fundo:",
+    randomColorIndex,
+    "Índice da cor da fonte:",
+    fontColorIndex
+  );
 });
 
 // Função para obter um índice aleatório da array de cores
@@ -39,14 +41,14 @@ function getRandomColor() {
 // Função para obter um índice aleatório para a cor da fonte, evitando que seja igual à cor de fundo
 function getFontColor(bgColorIndex) {
   // Declaração da variável para armazenar o índice da cor da fonte
-  let fontColor;
+  let fontColorIndex;
 
   // Início de um loop 'do-while'
   do {
-    // Atribui um índice aleatório gerado pela função getRandomColor() à variável fontColor
-    fontColor = getRandomColor();
-  } while (fontColor === bgColorIndex); // Continua gerando índices até que a cor da fonte seja diferente da cor de fundo
+    // Atribui um índice aleatório gerado pela função getRandomColor() à variável fontColorIndex
+    fontColorIndex = getRandomColor();
+  } while (fontColorIndex === bgColorIndex); // Continua gerando índices até que a cor da fonte seja diferente da cor de fundo
 
   // Retorna o índice escolhido para a cor da fonte
-  return fontColor;
+  return fontColorIndex;
 }
