@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 58: Centralizando bg image*/
+.not-centered-bg,
+.centered-bg {
+  width: 800px;
+  height: 400px;
+  background-image: url("./img/bg.jpg");
+  margin: 20px;
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+}

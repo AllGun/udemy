@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alinhamento de texto</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .text-center,
+      .text-left,
+      .text-right {
+        font-size: 3em;
+      }
+      .text-center {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .text-left {
+        text-align: left;
+        margin-bottom: 50px;
+      }
+
+      .text-right {
+        text-align: right;
+        margin-bottom: 50px;
+      }
+
+      .container-center,
+      .container-left,
+      .container-right {
+        margin: 10px;
+      }
+
+      .container-center {
+        font-size: 2em;
+        text-align: center;
+        width: 600px;
+        border: 2px solid purple;
+      }
+
+      .container-left {
+        font-size: 2em;
+        text-align: left;
+        width: 600px;
+        border: 5px solid rgb(39, 50, 191);
+      }
+
+      .container-right {
+        font-size: 2em;
+        text-align: right;
+        width: 600px;
+        border: 5px solid #e13711;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="text-center">Texto centralizado!</p>
+    <p class="text-left">Texto alinhado à esquerda!</p>
+    <p class="text-right">Texto alinhado à direita!</p>
+
+    <center>
+      <div class="container-center">
+        <h2>Centralizado</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="container-left">
+        <h2>Alinhado à Equerda</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="container-right">
+        <h2>Alinhado à Direita</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </center>
+  </body>
+</html>

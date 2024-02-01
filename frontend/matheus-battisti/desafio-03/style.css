@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box-model {
+  margin-top: 250px;
+  padding: 15px;
+  border: 5px solid #123;
+  outline: 10px solid #d93e3e;
+  width: 400px;
+  height: 400px;
+  background-color: #4fcaca;
+}
+
+.section-title {
+  color: azure;
+  background-color: black;
+}
