@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>espaçamento de letras</title>
+    <style>
+      body {
+        flex-direction: column;
+        font-size: 2em;
+      }
+
+      h1 {
+        text-align: center;
+        text-transform: capitalize;
+      }
+
+      ul li {
+        margin-bottom: 60px;
+        padding-top: 100px;
+      }
+
+      span {
+        margin-left: 50px;
+      }
+
+      code {
+        margin-top: 100px;
+      }
+
+      /* code {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>Espaçamento de letras</h1>
+    <p>
+      A propriedade letter-spacing no CSS é usada para controlar o espaço entre
+      caracteres em um elemento de texto.
+    </p>
+    <h3>Valores possíveis:</h3>
+    <ul>
+      <li>
+        <strong>Normal:</strong> é o valor padrão
+        <br />
+        <code>
+          .class-name {<br />
+          <span>letter-spacing: normal;</span><br />
+          }
+        </code>
+      </li>
+      <li>
+        <strong>Número positivo:</strong> Aumenta o espaço entre os caracteres.
+        <br />
+        <code>
+          <strong>.class-name</strong> {
+          <br />
+          <span>letter-spacing: 1px;</span><br />
+          }
+          <br />
+          <strong>.class-name</strong> {
+          <br />
+          <span>letter-spacing: 0.5em;</span><br />
+          }
+          <br />
+          <strong>.class-name</strong> {
+          <br />
+          <span>letter-spacing: 2rem;</span><br />
+          }
+        </code>
+      </li>
+      <li>
+        <strong>Número negativo:</strong> Diminui o espaço entre os caracteres.
+        <br />
+        <code>
+          <strong>.class-name</strong> {
+          <br />
+          <span>letter-spacing: -1px;</span><br />
+          }
+          <br />
+          <strong>.class-name</strong> {
+          <br />
+          <span>letter-spacing: -0.5em;</span><br />
+          }
+          <br />
+          <strong>.class-name</strong> {
+          <br />
+          <span>letter-spacing: -2rem;</span><br />
+          }
+        </code>
+      </li>
+
+      <li>
+        <strong>Length values:</strong> Você pode usar unidades como pixels (px)
+        para definir um valor específico.
+        <br />
+      </li>
+    </ul>
+  </body>
+</html>
