@@ -1,12 +1,32 @@
 let numeros = [1, 2, 3, 4, 5];
+console.log(numeros);
+console.log(typeof numeros);
 
-let userName = "Alfredo Gutemberg";
+const client = ["Matheus", "true", 2, 3.12, []];
+console.log(client);
+console.log(typeof client);
 
+// Propriedades
+console.log(numeros.length);
+
+let userName = "Lucas Montando";
 console.log(userName.length);
 
-console.log(userName.toUpperCase());
-console.log(userName.toLowerCase());
-console.log(userName[0].toLowerCase());
+const letras = ["a", "b", "c"];
 
-console.log(typeof userName.toLocaleUpperCase);
-console.log(typeof userName);
+const concatArrays = letras.concat(numeros);
+console.log(concatArrays);
+
+const concatArrays2 = numeros.concat(letras);
+console.log(concatArrays2);
+
+//Obs: a ordem de concatenação é importante
+
+const text = "ser ou não ser, eis a questão.";
+console.log(text.toUpperCase());
+console.log(typeof text.toUpperCase);
+console.log(text.indexOf("ã"));
+console.log(text.indexOf(" "));
+
+const text2 = "a b";
+console.log(text2.length);
