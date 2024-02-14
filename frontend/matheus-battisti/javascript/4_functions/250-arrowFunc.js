@@ -51,3 +51,22 @@ const greeting = (personName) => {
 
 greeting("Carlos");
 greeting();
+
+const helloWorld = () => {
+  console.log("Hello World!");
+};
+
+helloWorld();
+
+const helloPerson = (personName) => {
+  console.log(`Hello ${personName}!`);
+};
+
+helloPerson("Sally");
+
+const helloPersonDefault = (personName = " user") => {
+  console.log(`Hello ${personName}`);
+};
+
+helloPersonDefault();
+helloPersonDefault("Pomnimi");
